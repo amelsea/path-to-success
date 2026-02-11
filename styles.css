@@ -182,3 +182,53 @@ h4 { font-size: 1.15em; }
 .why-box.lavender { background-color: var(--yellow); color: var(--dark-gray); }
 .why-box.yellow { background-color: var(--lavender); color: var(--dark-gray); }
 .why-box.pink { background-color: var(--white); color: var(--dark-gray); }
+
+#pricing {
+  background-color: var(--purple);
+  border-radius: 0;
+  margin: 0;
+  padding: 1.25rem;
+  color: var(--white);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#pricing h2 { text-align: left; margin-bottom: 1rem; }
+#pricing section h3 { margin-top: -1.0rem; margin-bottom: 0.5rem; 
+color: var(--yellow);}
+
+.pricing-table {
+  width: 70%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  
+}
+
+table {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+}
+
+.pricing-table th,
+.pricing-table td {
+  border: 2px solid var(--yellow);
+  padding: 0.6rem;
+  text-align: center
+  ;
+  
+}
+
+.pricing-table th {
+  background-color: var(--yellow);
+  color: var(--dark-gray);
+  text-transform: uppercase;
+  font-weight: bold;
+  
+}
+
+.pricing-table td {
+  background-color: var(--white);
+  color: var(--dark-gray);
+}
