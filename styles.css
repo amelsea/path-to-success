@@ -1,0 +1,48 @@
+/* CSS BY Alaina Elsea */
+
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
+/* CSS RESET */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ROOT VARIABLES */
+:root {
+  --teal: #4CA7C0;
+  --purple: #484FB7;
+  --lavender: #6B8FE7;
+  --yellow: #E9BB57;
+  --pink: #D9526F;
+  --dark-gray: #1E1E1E;
+  --white: #ffffff;
+  --radius: 14px;
+}
+
+/* GLOBAL STYLES */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--lavender);
+  color: var(--dark-gray);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 420px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* TYPOGRAPHY */
+h1, h2 { font-family: 'Kavoon', cursive; }
+h1 { font-size: 3em; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.5em; }
+h4 { font-size: 1.15em; }
