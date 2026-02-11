@@ -46,3 +46,19 @@ h1 { font-size: 3em; }
 h2 { font-size: 2em; }
 h3 { font-size: 1.5em; }
 h4 { font-size: 1.15em; }
+
+.site-title {
+  background-color: var(--purple);
+  color: var(--white);
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 0;
+  margin-top: -1.0rem;
+  margin-bottom: -1.0rem
+}
+
+.tagline {
+  font-family: 'Inter', sans-serif;
+  font-style: italic;
+  font-size: 1rem;
+}
