@@ -62,3 +62,43 @@ h4 { font-size: 1.15em; }
   font-style: italic;
   font-size: 1rem;
 }
+
+.menu-container {
+  background-color: var(--yellow);
+  padding: 1rem;
+  border-radius: 0;
+  text-align: center;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 0rem
+}
+
+.menu-title {
+  font-family: 'Inter', sans-serif;
+  color: var(--dark-gray);
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 1.5em;
+  margin-bottom: 0.75rem;
+}
+
+.menu-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-container li {
+  margin: 0.5rem 0;
+}
+
+.menu-container a {
+  display: block;
+  background-color: var(--white);
+  color: var(--purple);
+  padding: 0.6rem;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 0;
+  text-transform: uppercase;
+}
